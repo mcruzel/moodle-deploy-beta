@@ -1,7 +1,7 @@
 # This script is used to deploy a beta test phase on Moodle for teachers, using the teacher list of the current Moodle and a test course to duplicate.
 # Each teacher will be registred as a teacher in a copy of the test course on the beta Moodle.
 # The key used for find the teacher on the beta Moodle is the email (email = username)
-# Method used for logging is oatuh2
+# Method used for logging is oauth2
 
 # Get the list of teachers from the current Moodle with sql report : ->
 # Export the report as csv file and name it teacher_list.csv
